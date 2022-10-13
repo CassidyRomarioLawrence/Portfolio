@@ -1,11 +1,12 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 .navbar{
     display: flex;
     justify-content: center;
-    height: 50px;
+    height: 60px;
     align-items: center;
     position: relative;
 }
@@ -35,7 +36,7 @@
 #home{
     display: flex;
     flex-direction: column;
-    height: 600px;
+    height: 675px;
     justify-content: center;
     align-items: center;
     background-color: rgb(85, 200, 85);
@@ -52,4 +53,21 @@
     display: flex;
     flex-direction: column;
     background-color:rgb(140, 223, 176) ;
+    height: 735px;
 }
+#about p{
+    text-align: center;
+    margin: 20px 0 20px;
+    padding: 1%;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 50%;
+    width: 20em;
+    margin-top: 2%;
+    border: 4px solid white;
+  }
